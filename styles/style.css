@@ -70,8 +70,12 @@ a:visited {
   padding: 0.5em 1.4em;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .hero-section .btn {
-  padding: 0.8em 2em;
+  padding: 0.6em 1.4em;
   font-size: 3.2rem;
 }
 
