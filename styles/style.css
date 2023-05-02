@@ -22,7 +22,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4.8rem 3.2rem;
+  padding: 3.2rem;
+  margin-bottom: 2.4rem;
 }
 
 .nav-list {
@@ -54,7 +55,8 @@ a:visited {
 .hero-section h1 {
   color: #ffc233;
   font-family: "Dela Gothic One", cursive;
-  font-size: 9rem;
+  font-size: 6.4rem;
+  line-height: 1.2;
   letter-spacing: 5px;
   text-transform: capitalize;
   text-align: center;
@@ -62,21 +64,30 @@ a:visited {
 
 .btn {
   border: none;
-  font-size: 2.4rem;
   font-family: inherit;
   background-color: #ff505f;
   color: #fff;
   font-weight: 600;
   padding: 0.5em 1.4em;
+  transition: background-color 0.2s;
 }
 
 .btn:hover {
   cursor: pointer;
+  background-color: #f06974;
 }
 
-.hero-section .btn {
+.btn--order {
+  font-size: 2rem;
+}
+
+.btn--menu {
   padding: 0.6em 1.4em;
-  font-size: 3.2rem;
+  font-size: 2.6rem;
+}
+
+.logo {
+  width: 9.2rem;
 }
 
 .scroll-logo {
